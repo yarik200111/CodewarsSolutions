@@ -41,3 +41,12 @@ function capitalizeWord(word) {
   return wordNew;
 }
 ```
+
+## Will you make it?
+
+```JavaScript
+function zeroFuel(s, mpg, g){
+ return (s <= mpg * g);
+ }
+ ```
+ 
