@@ -50,10 +50,10 @@ function zeroFuel(s, mpg, g){
  }
  ```
 
- ## Refactor
+ ## Opposite number
 
-Opposite number
-JavaScript:
+```JavaScript
 function opposite(number) {
   return -number
 }
+```
