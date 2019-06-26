@@ -1,8 +1,9 @@
-# Hello world!
+# Solutions
 
-## sub
+## Multiply
 
-text
-
-* list 1
-* list 2
+```JavaScript
+function multiply(a, b){
+  return a * b;
+}
+```
