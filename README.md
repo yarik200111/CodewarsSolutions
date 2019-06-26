@@ -49,4 +49,11 @@ function zeroFuel(s, mpg, g){
  return (s <= mpg * g);
  }
  ```
- 
+
+ ## Refactor
+
+Opposite number
+JavaScript:
+function opposite(number) {
+  return -number
+}
