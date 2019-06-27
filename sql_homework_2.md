@@ -37,8 +37,7 @@ left outer join driver d on d.id_driver = c.id_driver
 ## 5.Вывести автомобили у которых нет водителей
 
 ```sql
-select d.first_name, c.model
+select c.*
 from car c
-left outer join driver d on d.id_driver = c.id_driver
-where d.id_driver is null
+where c.id_driver is null
 ```
