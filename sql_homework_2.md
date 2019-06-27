@@ -12,7 +12,7 @@ where d.rate < 50 and c.odo < 80000
 ## 2.Вывести водителей с автомобилями в порядке размера платы, от большего к меньшему и их автомобили, отсортированные от меньшего пробега к большему
 
 ```sql
-select d.first_name, c.model, d.rate, c.odo
+select *
 from driver d
 join car c on d.id_driver = c.id_driver
 order by d.rate desc, c.odo
