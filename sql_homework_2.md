@@ -3,9 +3,9 @@
 ## 1.Вывести водителей со ставкой меньше 50 и их автомобили с пробегом меньше 80000
 
 ```sql
-select d.first_name, c.model, d.rate, c.odo
+select *
 from driver d
-join car c on d.id_driver = c.id_driver
+left join car c on d.id_driver = c.id_driver
 where d.rate < 50 and c.odo < 80000
 ```
 
