@@ -5,7 +5,7 @@
 ```sql
 select *
 from driver d
-left join car c on d.id_driver = c.id_driver
+join car c on d.id_driver = c.id_driver
 where d.rate < 50 and c.odo < 80000
 ```
 
