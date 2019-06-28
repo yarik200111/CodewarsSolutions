@@ -70,7 +70,8 @@ var countSheep = function (num){
 ```
 
 ## Get list sum recursively
-```javaScript
+
+```JavaScript
 function sumR(x) {
   if (x.length === 0) {
     return 0;
@@ -78,4 +79,9 @@ function sumR(x) {
   return x[0] + sumR(x.slice(1));
 }
 ```
+
+## When provided with a number between 0-9, return it in words.
+
+```JavaScript
+
 
