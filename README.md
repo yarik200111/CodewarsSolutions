@@ -69,7 +69,7 @@ var countSheep = function (num){
 }
 ```
 
-##
+## Get list sum recursively
 ```javaScript
 function sumR(x) {
   if (x.length === 0) {
