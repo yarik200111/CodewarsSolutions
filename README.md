@@ -69,3 +69,13 @@ var countSheep = function (num){
 }
 ```
 
+##
+```javaScript
+function sumR(x) {
+  if (x.length === 0) {
+    return 0;
+  }
+  return x[0] + sumR(x.slice(1));
+}
+```
+
