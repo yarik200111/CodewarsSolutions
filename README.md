@@ -107,3 +107,16 @@ function stringToArray(string){
 }
 ```
 
+## Determine offspring sex based on genes XX and XY chromosomes
+
+```JavaScript
+function chromosomeCheck(sperm) {
+  if (sperm === 'XY') {
+    return "Congratulations! You're going to have a son.";
+  }
+  if (sperm === 'XX') {
+    return "Congratulations! You're going to have a daughter.";
+  }
+  return "Sorry, You will have an alien!";
+}
+```
