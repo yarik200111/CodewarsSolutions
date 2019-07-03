@@ -88,7 +88,22 @@ let arr = ['Zero', 'One', 'Two', 'Three', 'Four','Five', 'Six', 'Seven', 'Eight'
 return arr[number]
 }
 ```
-## master solution
+## Convert a string to an array
 
+```javascript
+function stringToArray(string){
+  let arr = [];
+  let word = '';
+  for (let i = 0; i < string.length; i++) {
+    if (string[i] === ' ') {
+      arr.push(word);
+      word = '';
+    } else {
+      word += string[i];
+    }
+  }
+  arr.push(word);
+  return arr;
+}
+```
 
-new changes from master
