@@ -195,3 +195,13 @@ Sleigh.prototype.authenticate = function(name, password) {
 };
 ```
 
+## Switch it Up!
+
+```JavaScript
+function switchItUp(number){
+  let arr = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine'];
+  return arr[number];
+}
+```
+
+
