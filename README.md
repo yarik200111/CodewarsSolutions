@@ -145,3 +145,14 @@ function feast(beast, dish) {
   return beast[0] === dish[0] && beast[beast.length-1] === dish[dish.length-1];
 }
 ```
+
+## Simple multiplication
+```JavaScript
+function simpleMultiplication(number) {
+  if (number % 2 === 0) {
+    return number * 8;
+  } else {
+    return number * 9;
+  }
+}
+```
