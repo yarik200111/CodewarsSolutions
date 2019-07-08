@@ -173,3 +173,12 @@ function finalGrade (exam, projects) {
  return 0;
 }
 ```
+
+## Type of sum
+
+```JavaScript
+function typeOfSum(a, b) {
+  return typeof (a + b);
+}
+```
+
