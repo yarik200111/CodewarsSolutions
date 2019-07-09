@@ -220,4 +220,25 @@ function randomCase(x) {
 }
 ```
 
+## Alphabet symmetry
+
+```JavaScript
+function solve(arr){  
+  let res = [];
+  const codeA = 'a'.charCodeAt(0);
+  for (let w = 0; w < arr.length; w++) {
+    let word = arr[w];
+    let cnt = 0;
+    for (let i = 0; i < word.length; i++) {
+      let char = word[i].toLowerCase();
+      if (char.charCodeAt(0) === codeA + i) {
+        cnt++;
+      }
+    }
+    res.push(cnt)
+  }
+  return res;
+};
+```
+
 
