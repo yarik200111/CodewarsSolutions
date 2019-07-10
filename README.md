@@ -265,4 +265,13 @@ function getIssuer(number) {
 }
 ```
 
+## Create Phone Number
+
+```JavaScript
+function createPhoneNumber(numbers){
+  let s = numbers.join('');
+  return `(${s.substr(0, 3)}) ${s.substr(3, 3)}-${s.substr(6)}`
+}
+```
+
 
