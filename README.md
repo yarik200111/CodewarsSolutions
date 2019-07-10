@@ -274,4 +274,12 @@ function createPhoneNumber(numbers){
 }
 ```
 
+## Remove String Spaces
+
+```JavaScript
+function noSpace(x){
+  return x.replace(/ /g, "");
+}
+```
+
 
