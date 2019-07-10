@@ -293,4 +293,12 @@ function whoIsPaying(name){
 }
 ```
 
+## Do I get a bonus?
+
+```JavaScript
+function bonusTime(salary, bonus) {
+  return "\u00A3" + (bonus ?  salary * 10 : salary);
+}
+```
+
 
