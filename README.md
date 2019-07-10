@@ -336,4 +336,20 @@ function getRectangleString(width, height) {
 }
 ```
 
+## Mumbling
+
+```JavaScript
+function accum(s) {
+	let arr = [];
+  for (let i = 0; i < s.length; i++) {
+    let r = s[i].toUpperCase();
+    for (let j = 0; j < i; j++) {
+      r += s[i].toLowerCase();
+    }
+    arr.push(r);
+  }
+  return arr.join("-");
+}
+```
+
 
