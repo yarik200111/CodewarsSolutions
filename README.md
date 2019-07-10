@@ -282,6 +282,15 @@ function noSpace(x){
 }
 ```
 
+## Who is going to pay for the wall?
 
+```JavaScript
+function whoIsPaying(name){
+  if (name.length > 2) {
+    return [name, name.substr(0,2)]
+  }
+  return [name]
+}
+```
 
 
