@@ -352,4 +352,22 @@ function accum(s) {
 }
 ```
 
+## String average
+
+```JavaScript
+function averageString(str) {
+  let numbers = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
+  let arr = str.split(" ");
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    let num = numbers.indexOf(arr[i])
+    if (num < 0) {
+      return "n/a";
+    } 
+    sum += num;
+  }
+  return numbers[Math.floor(sum / arr.length)];
+}
+```
+
 
