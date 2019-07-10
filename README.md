@@ -241,4 +241,28 @@ function solve(arr){
 };
 ```
 
+## Credit card issuer checking
+
+```JavaScript
+function getIssuer(number) {
+    let s = '' + number
+    let f1 = s.substr(0, 1);
+    let f2 = s.substr(0, 2);
+    let f4 = s.substr(0, 4);
+    if ((f2 === "34" || f2 === "37") && s.length === 15) {
+        return "AMEX";
+    }
+    if (f4 === "6011" && s.length === 16) {
+        return "Discover";
+    }
+    if (["51", "52", "53", "54", "55"].indexOf(f2) >= 0 && s.length === 16) {
+        return "Mastercard";
+    }
+    if (f1 === "4" && (s.length === 13 || s.length === 16)) {
+        return "VISA";
+    }
+    return "Unknown";
+}
+```
+
 
