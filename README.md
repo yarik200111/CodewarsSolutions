@@ -317,4 +317,23 @@ function solution(str, ending){
 }
 ```
 
+## Print a Rectangle Using Asterisks
+
+```JavaScript
+function getRectangleString(width, height) {
+  let s = "";
+  for (let h = 0; h < height; h++) {
+    for (let w = 0; w < width; w++) {
+      if (h > 0 && h < height - 1 && w > 0 && w < width - 1) {
+        s += " ";
+      } else {
+        s += "*";
+      }
+    }
+    s += "\r\n";
+  }
+  return s;
+}
+```
+
 
