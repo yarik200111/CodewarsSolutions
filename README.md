@@ -309,4 +309,12 @@ function greet(name){
 }
 ```
 
+## String ends with?
+
+```JavaScript
+function solution(str, ending){
+  return str.substr(str.length - ending.length) === ending;
+}
+```
+
 
